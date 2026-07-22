@@ -15,7 +15,7 @@ CREATE TABLE collateral_appraisal (
 -- Agent checks pipeline_state first; if HALTED, return status "HALT".
 
 INSERT INTO collateral_appraisal VALUES
-('APP-001', 'James Smith',         'Residential Property',  562500, '2025-08-10', '1st Lien', 'Good',      'ACTIVE'),
+('APP-001', 'James Smith',         'Residential Property',  562500, '2026-06-10', '1st Lien', 'Good',      'ACTIVE'),
 ('APP-002', 'Mary Johnson',        'Vehicle',                38900, '2025-08-12', '1st Lien', 'Good',      'ACTIVE'),
 ('APP-003', 'John Williams',        NULL,                     NULL,  NULL,         NULL,       NULL,       'HALTED'),
 ('APP-004', 'Patricia Brown',      'Unsecured',               NULL,  NULL,        'N/A',      'N/A',       'ACTIVE'),
